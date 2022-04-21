@@ -5,9 +5,7 @@ import StyledIcon from '../components/StyledIcon';
 import { RootTabScreenProps } from '../types';
 import { QUERY_INSPECTIONS } from '../graphql/queries';
 
-export default function TabOneScreen({ navigation }: RootTabScreenProps<'TabOne'>) {
-
-
+export default function TabOneScreen({ navigation }: RootTabScreenProps<'Inspections'>) {
 
   const { loading, data, error } = useQuery(QUERY_INSPECTIONS);
 

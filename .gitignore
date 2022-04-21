@@ -65,4 +65,5 @@ node_modules/
 # dotenv environment variables file
 .env
 
-tr8hiveapp-firebase-adminsdk-zzx7h-124c37778a.json
+resources/
+demo.json
